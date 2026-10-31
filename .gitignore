@@ -11,3 +11,9 @@ wheels/
 
 # Participanat data
 data/
+
+# Generated preparation and analysis artifacts
+out/
+
+# Ignore folder
+ignore/

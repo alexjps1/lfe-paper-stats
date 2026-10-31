@@ -628,5 +628,12 @@ def definitions():
 # START
 # ============================================================
 
+def analyze(config_name: str) -> None:
+    raise NotImplementedError(
+        "The eye-tracking analysis has not yet been migrated to prepared Parquet data. "
+        "Run 'lfecli prepare' for now."
+    )
+
+
 if __name__ == "__main__":
     main()
